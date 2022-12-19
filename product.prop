@@ -10,3 +10,6 @@ ro.opa.eligible_device=true
 
 # Thermal
 persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
+
+# Spark maintainer
+ro.spark.maintainer=Mejsi
