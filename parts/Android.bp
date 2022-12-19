@@ -18,7 +18,7 @@ android_app {
     static_libs: [
         "androidx.core_core",
         "androidx.preference_preference",
-        "com.tequila.settings.resources",
+        "org.lineageos.settings.resources",
     ],
     optimize: {
         proguard_flags_files: ["proguard.flags"],
