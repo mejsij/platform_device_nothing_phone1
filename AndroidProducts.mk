@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_phone1.mk
+    $(LOCAL_DIR)/cherish_phone1.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_phone1-eng \
-    aosp_phone1-user \
-    aosp_phone1-userdebug
+    cherish_phone1-eng \
+    cherish_phone1-user \
+    cherish_phone1-userdebug
