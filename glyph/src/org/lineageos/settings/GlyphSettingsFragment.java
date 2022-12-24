@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.nameless.device.nothing;
+package org.lineageos.settings;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -18,7 +18,7 @@ import androidx.preference.SwitchPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.nameless.device.nothing.R;
+import org.lineageos.settings.R;
 
 public class GlyphSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {

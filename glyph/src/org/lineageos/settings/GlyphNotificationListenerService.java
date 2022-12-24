@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.nameless.device.nothing;
+package org.lineageos.settings;
 
 import android.os.Handler;
 import android.os.Looper;

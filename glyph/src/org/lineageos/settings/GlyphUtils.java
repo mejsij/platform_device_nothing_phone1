@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.nameless.device.nothing;
+package org.lineageos.settings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.provider.Settings;
 
 import androidx.preference.PreferenceManager;
 
-import org.nameless.device.nothing.FileUtils;
+import org.lineageos.settings.FileUtils;
 
 public class GlyphUtils {
 

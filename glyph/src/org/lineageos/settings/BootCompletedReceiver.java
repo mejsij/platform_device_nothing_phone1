@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.nameless.device.nothing;
+package org.lineageos.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.nameless.device.nothing.GlyphUtils;
+import org.lineageos.settings.GlyphUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
