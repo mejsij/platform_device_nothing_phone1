@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/phone1/device.mk)
 
 # Inherit from the Nameless AOSP configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Bootanimation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -22,7 +22,7 @@ PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := phone1
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_MODEL := A063
-PRODUCT_NAME := aosp_phone1
+PRODUCT_NAME := spark_phone1
 PRODUCT_SYSTEM_DEVICE := Spacewar
 PRODUCT_SYSTEM_NAME := Spacewar
 
@@ -35,3 +35,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
     
 BUILD_FINGERPRINT := Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1669043157:user/release-keys
+
+# Spark config
+TARGET_USES_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER := true
+WITH_FOD_ANIMATIONS=true
+WITH_GAPPS := true
